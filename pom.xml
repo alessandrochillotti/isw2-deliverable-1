@@ -11,7 +11,7 @@
         <maven.compiler.target>11</maven.compiler.target>
         
         <sonar.organization>alessandrochillotti</sonar.organization>
-  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
 
@@ -23,10 +23,10 @@
         </dependency>
         
         <!-- https://mvnrepository.com/artifact/org.json/json -->
-		<dependency>
-		    <groupId>org.json</groupId>
-		    <artifactId>json</artifactId>
-		    <version>20210307</version>
-		</dependency>
+	<dependency>
+	    <groupId>org.json</groupId>
+	    <artifactId>json</artifactId>
+	    <version>20210307</version>
+	</dependency>
     </dependencies>
 </project>
