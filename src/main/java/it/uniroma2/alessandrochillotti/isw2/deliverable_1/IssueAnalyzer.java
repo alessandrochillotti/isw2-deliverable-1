@@ -92,7 +92,7 @@ public class IssueAnalyzer {
 				fileWriter.append("\n");
 			}
 		} catch (Exception e) {
-			 e.printStackTrace();
+			 LOGGER.log(null, "context", e);
 		}
 	}
 	
